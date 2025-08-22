@@ -1,7 +1,7 @@
 <nav>
   <ul class="">
     <li
-      *for="let link of navLinks"
+      *ngFor="let link of navLinks"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{ exact: true }"
     >
